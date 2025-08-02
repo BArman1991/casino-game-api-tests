@@ -28,3 +28,25 @@ npm test
 All API test cases were created based on the documentation and assumptions outlined in the assignment.
 Requests are made to http://localhost:3000, but the server is not expected to be running.
 As such, test executions are designed as templates and may fail due to connection errors.
+
+---
+
+🔍 Bonus: Code Review & Debugging (Part 3)
+This project also includes a code review and a refactored version of the Selenium login test (as required in Part 3 of the assignment).
+
+📁 Folder: selenium-review/
+
+code-review.md – Analysis of bad practices and proposed improvements.
+
+testLogin.refactored.js – Improved version using best practices.
+
+✅ Key Improvements:
+Added proper waits (using until.elementLocated)
+
+Better structure: Arrange–Act–Assert pattern
+
+Enhanced error handling and logging
+
+Removed hardcoded values and repetition
+
+Improved readability and maintainability
